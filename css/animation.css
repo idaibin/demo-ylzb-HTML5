@@ -1,0 +1,1273 @@
+
+/*		页面切换动画（上下左右）		*/
+.active{
+	animation: enter 0.5s forwards;
+	-webkit-animation: enter 0.5s forwards;
+}
+.leave{
+	animation:getout 0.5s  forwards ease-in-out;
+	-webkit-animation:getout 0.5s  forwards ease-in-out;
+}
+.r-active{
+	animation: Renter 0.5s forwards;
+	-webkit-animation: Renter 0.5s forwards;
+}
+.r-leave{
+	animation: Rgetout 0.5s  forwards ease-in-out;
+	-webkit-animation: Rgetout 0.5s forwards ease-in-out;
+}
+.t-active{
+	animation: Tenter 0.5s forwards;
+	-webkit-animation: Tenter 0.5s forwards;
+}
+.t-leave{
+	animation: Tgetout 0.5s  forwards ease-in-out;
+	-webkit-animation: Tgetout 0.5s forwards ease-in-out;
+}
+.b-active{
+	animation: Benter 0.5s forwards;
+	-webkit-animation: Benter 0.5s forwards;
+}
+.b-leave{
+	animation: Bgetout 0.5s  forwards ease-in-out;
+	-webkit-animation: Bgetout 0.5s forwards ease-in-out;
+}
+
+/*		左滑动		*/
+/*		左滑动Left		*/
+.active .left-move{
+	animation: Left-Move forwards;
+	-webkit-animation: Left-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .left-scale{
+	animation: Left-Scale forwards;
+	-webkit-animation: Left-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .left-rotate{
+	animation: Left-Rotate forwards;
+	-webkit-animation: Left-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .left-skew{
+	animation: Left-Skew forwards;
+	-webkit-animation: Left-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .left-scale-rotate{
+	animation: Left-Scale-Rotate forwards;
+	-webkit-animation: Left-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .left-scale-skew{
+	animation: Left-Scale-Skew forwards;
+	-webkit-animation: Left-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		左滑动Right		*/
+.active .right-move{
+	animation: Right-Move forwards;
+	-webkit-animation: Right-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .right-scale{
+	animation: Right-Scale forwards;
+	-webkit-animation: Right-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .right-rotate{
+	animation: Right-Rotate forwards;
+	-webkit-animation: Right-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .right-skew{
+	animation: Right-Skew forwards;
+	-webkit-animation: Right-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .right-scale-rotate{
+	animation: Right-Scale-Rotate forwards;
+	-webkit-animation: Right-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .right-scale-skew{
+	animation: Right-Scale-Skew forwards;
+	-webkit-animation: Right-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		左滑动Top		*/
+.active .top-move{
+	animation: Top-Move forwards;
+	-webkit-animation: Top-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .top-scale{
+	animation: Top-Scale forwards;
+	-webkit-animation: Top-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .top-rotate{
+	animation: Top-Rotate forwards;
+	-webkit-animation: Top-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .top-skew{
+	animation: Top-Skew forwards;
+	-webkit-animation: Top-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .top-scale-rotate{
+	animation: Top-Scale-Rotate forwards;
+	-webkit-animation: Top-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .top-scale-skew{
+	animation: Top-Scale-Skew forwards;
+	-webkit-animation: Top-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		左滑动Bottom		*/
+.active .bottom-move{
+	animation: Bottom-Move forwards;
+	-webkit-animation: Bottom-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .bottom-scale{
+	animation: Bottom-Scale forwards;
+	-webkit-animation: Bottom-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .bottom-rotate{
+	animation: Bottom-Rotate forwards;
+	-webkit-animation: Bottom-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .bottom-skew{
+	animation: Bottom-Skew forwards;
+	-webkit-animation: Bottom-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .bottom-scale-rotate{
+	animation: Bottom-Scale-Rotate forwards;
+	-webkit-animation: Bottom-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.active .bottom-scale-skew{
+	animation: Bottom-Scale-Skew forwards;
+	-webkit-animation: Bottom-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+
+/*		右滑动		*/
+/*		右滑动Left		*/
+.r-active .left-move{
+	animation: Left-Move forwards;
+	-webkit-animation: Left-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .left-scale{
+	animation: Left-Scale forwards;
+	-webkit-animation: Left-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .left-rotate{
+	animation: Left-Rotate forwards;
+	-webkit-animation: Left-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .left-skew{
+	animation: Left-Skew forwards;
+	-webkit-animation: Left-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .left-scale-rotate{
+	animation: Left-Scale-Rotate forwards;
+	-webkit-animation: Left-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .left-scale-skew{
+	animation: Left-Scale-Skew forwards;
+	-webkit-animation: Left-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		右滑动Right		*/
+.r-active .right-move{
+	animation: Right-Move forwards;
+	-webkit-animation: Right-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .right-scale{
+	animation: Right-Scale forwards;
+	-webkit-animation: Right-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .right-rotate{
+	animation: Right-Rotate forwards;
+	-webkit-animation: Right-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .right-skew{
+	animation: Right-Skew forwards;
+	-webkit-animation: Right-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .right-scale-rotate{
+	animation: Right-Scale-Rotate forwards;
+	-webkit-animation: Right-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .right-scale-skew{
+	animation: Right-Scale-Skew forwards;
+	-webkit-animation: Right-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		右滑动Top		*/
+.r-active .top-move{
+	animation: Top-Move forwards;
+	-webkit-animation: Top-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .top-scale{
+	animation: Top-Scale forwards;
+	-webkit-animation: Top-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .top-rotate{
+	animation: Top-Rotate forwards; 
+	-webkit-animation: Top-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .top-skew{
+	animation: Top-Skew forwards;
+	-webkit-animation: Top-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .top-scale-rotate{
+	animation: Top-Scale-Rotate forwards;
+	-webkit-animation: Top-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .top-scale-skew{
+	animation: Top-Scale-Skew forwards;
+	-webkit-animation: Top-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		右滑动Bottom		*/
+.r-active .bottom-move{
+	animation: Bottom-Move forwards;
+	-webkit-animation: Bottom-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .bottom-scale{
+	animation: Bottom-Scale forwards;
+	-webkit-animation: Bottom-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .bottom-rotate{
+	animation: Bottom-Rotate forwards;
+	-webkit-animation: Bottom-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .bottom-skew{
+	animation: Bottom-Skew forwards;
+	-webkit-animation: Bottom-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .bottom-scale-rotate{
+	animation: Bottom-Scale-Rotate forwards;
+	-webkit-animation: Bottom-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.r-active .bottom-scale-skew{
+	animation: Bottom-Scale-Skew forwards;
+	-webkit-animation: Bottom-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+
+/*		上滑动		*/
+/*		上滑动Left		*/
+.t-active .left-move{
+	animation: Left-Move forwards;
+	-webkit-animation: Left-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .left-scale{
+	animation: Left-Scale forwards;
+	-webkit-animation: Left-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .left-rotate{
+	animation: Left-Rotate forwards;
+	-webkit-animation: Left-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .left-skew{
+	animation: Left-Skew forwards;
+	-webkit-animation: Left-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .left-scale-rotate{
+	animation: Left-Scale-Rotate forwards;
+	-webkit-animation: Left-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .left-scale-skew{
+	animation: Left-Scale-Skew forwards;
+	-webkit-animation: Left-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		上滑动Right		*/
+.t-active .right-move{
+	animation: Right-Move forwards;
+	-webkit-animation: Right-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .right-scale{
+	animation: Right-Scale forwards;
+	-webkit-animation: Right-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .right-rotate{
+	animation: Right-Rotate forwards;
+	-webkit-animation: Right-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .right-skew{
+	animation: Right-Skew forwards;
+	-webkit-animation: Right-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .right-scale-rotate{
+	animation: Right-Scale-Rotate forwards;
+	-webkit-animation: Right-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .right-scale-skew{
+	animation: Right-Scale-Skew forwards;
+	-webkit-animation: Right-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		上滑动Top		*/
+.t-active .top-move{
+	animation: Top-Move forwards;
+	-webkit-animation: Top-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .top-scale{
+	animation: Top-Scale forwards;
+	-webkit-animation: Top-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .top-rotate{
+	animation: Top-Rotate forwards;
+	-webkit-animation: Top-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .top-skew{
+	animation: Top-Skew forwards;
+	-webkit-animation: Top-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .top-scale-rotate{
+	animation: Top-Scale-Rotate forwards;
+	-webkit-animation: Top-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .top-scale-skew{
+	animation: Top-Scale-Skew forwards;
+	-webkit-animation: Top-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		上滑动Bottom		*/
+.t-active .bottom-move{
+	animation: Bottom-Move forwards;
+	-webkit-animation: Bottom-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .bottom-scale{
+	animation: Bottom-Scale forwards;
+	-webkit-animation: Bottom-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .bottom-rotate{
+	animation: Bottom-Rotate forwards;
+	-webkit-animation: Bottom-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .bottom-skew{
+	animation: Bottom-Skew forwards;
+	-webkit-animation: Bottom-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .bottom-scale-rotate{
+	animation: Bottom-Scale-Rotate forwards;
+	-webkit-animation: Bottom-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.t-active .bottom-scale-skew{
+	animation: Bottom-Scale-Skew forwards;
+	-webkit-animation: Bottom-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+
+/*		下滑动		*/
+/*		下滑动Left		*/
+.b-active .left-move{
+	animation: Left-Move forwards;
+	-webkit-animation: Left-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .left-scale{
+	animation: Left-Scale forwards;
+	-webkit-animation: Left-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .left-rotate{
+	animation: Left-Rotate forwards;
+	-webkit-animation: Left-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .left-skew{
+	animation: Left-Skew forwards;
+	-webkit-animation: Left-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .left-scale-rotate{
+	animation: Left-Scale-Rotate forwards;
+	-webkit-animation: Left-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .left-scale-skew{
+	animation: Left-Scale-Skew forwards;
+	-webkit-animation: Left-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		下滑动Right		*/
+.b-active .right-move{
+	animation: Right-Move forwards;
+	-webkit-animation: Right-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .right-scale{
+	animation: Right-Scale forwards;
+	-webkit-animation: Right-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .right-rotate{
+	animation: Right-Rotate forwards;
+	-webkit-animation: Right-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .right-skew{
+	animation: Right-Skew forwards;
+	-webkit-animation: Right-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .right-scale-rotate{
+	animation: Right-Scale-Rotate forwards;
+	-webkit-animation: Right-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .right-scale-skew{
+	animation: Right-Scale-Skew forwards;
+	-webkit-animation: Right-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		下滑动Top		*/
+.b-active .top-move{
+	animation: Top-Move forwards;
+	-webkit-animation: Top-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .top-scale{
+	animation: Top-Scale forwards;
+	-webkit-animation: Top-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .top-rotate{
+	animation: Top-Rotate forwards;
+	-webkit-animation: Top-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .top-skew{
+	animation: Top-Skew forwards;
+	-webkit-animation: Top-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .top-scale-rotate{
+	animation: Top-Scale-Rotate forwards;
+	-webkit-animation: Top-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .top-scale-skew{
+	animation: Top-Scale-Skew forwards;
+	-webkit-animation: Top-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+/*		下滑动Bottom		*/
+.b-active .bottom-move{
+	animation: Bottom-Move forwards;
+	-webkit-animation: Bottom-Move forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .bottom-scale{
+	animation: Bottom-Scale forwards;
+	-webkit-animation: Bottom-Scale forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .bottom-rotate{
+	animation: Bottom-Rotate forwards;
+	-webkit-animation: Bottom-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .bottom-skew{
+	animation: Bottom-Skew forwards;
+	-webkit-animation: Bottom-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .bottom-scale-rotate{
+	animation: Bottom-Scale-Rotate forwards;
+	-webkit-animation: Bottom-Scale-Rotate forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+.b-active .bottom-scale-skew{
+	animation: Bottom-Scale-Skew forwards;
+	-webkit-animation: Bottom-Scale-Skew forwards;
+	animation-fill-mode:backwards;
+	-webkit-animation-fill-mode:backwards;
+}
+
+/*	动画时间设置（持续时间dura1000 ，延迟时间delay500 ，持续infini ）	*/
+/*		Time-left		*/
+.active .dura1000{
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+}
+.active .dura1500{
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+}
+.active .dura2000{
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+}
+.active .delay500{
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+.active .delay1000{
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+.active .delay1500{
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
+.active .count-all{
+	animation-iteration-count:infinite;	
+	-webkit-animation-iteration-count:infinite;	
+}
+/*		Time-right		*/
+.r-active .dura1000{
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+}
+.r-active .dura1500{
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+}
+.r-active .dura2000{
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+}
+.r-active .delay500{
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+.r-active .delay1000{
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+.r-active .delay1500{
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
+.r-active .count-all{
+	animation-iteration-count:infinite;	
+	-webkit-animation-iteration-count:infinite;	
+}
+/*		Time-top		*/
+.t-active .dura1000{
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+}
+.t-active .dura1500{
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+}
+.t-active .dura2000{
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+}
+.t-active .delay500{
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+.t-active .delay1000{
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+.t-active .delay1500{
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
+.t-active .count-all{
+	animation-iteration-count:infinite;	
+	-webkit-animation-iteration-count:infinite;	
+}
+/*		Time-bottom		*/
+.b-active .dura1000{
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+}
+.b-active .dura1500{
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+}
+.b-active .dura2000{
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+}
+.b-active .delay500{
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+.b-active .delay1000{
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+.b-active .delay1500{
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
+.b-active .count-all{
+	animation-iteration-count:infinite;	
+	-webkit-animation-iteration-count:infinite;	
+}
+
+
+/*		循环小动画		*/
+.scalell{
+	animation: scalell 2s infinite;
+	-webkit-animation: scalell 2s infinite;
+}
+.rotatell{
+	animation: rotatell 4s infinite;
+	-webkit-animation: rotatell 2s infinite;
+}
+.round{
+	animation: Round 2s linear infinite;
+	-webkit-animation: Round 2s linear infinite;
+}
+.round-anti{
+	animation: Round-anti 2s linear infinite;
+	-webkit-animation: Round-anti 2s linear infinite;
+}
+.arrow{
+	animation: arrow 1s linear infinite;
+	-webkit-animation: arrow 1s linear infinite;
+}
+
+
+
+
+
+
+/* 其他动画 */
+@keyframes arrow{
+	0%{transform: translateY(-30%);opacity: 0;}
+	0%{-webkit-transform: translateY(-30%);opacity: 0;}
+	45%{transform: translateY(0%);opacity: 1;}
+	45%{-webkit-transform: translateY(0%);opacity: 1;}
+	55%{transform: translateY(0%);opacity: 1;}
+	55%{-webkit-transform: translateY(0%);opacity: 1;}
+	100%{transform: translateY(30%);opacity: 0;}
+	100%{-webkit-transform: translateY(30%);opacity: 0;}
+}
+@-webkit-keyframes arrow{
+	0%{transform: translateY(-10%);opacity: 0;}
+	0%{-webkit-transform: translateY(-10%);opacity: 0;}
+	40%{transform: translateY(10%);opacity: 1;}
+	40%{-webkit-transform: translateY(10%);opacity: 1;}
+	80%{transform: translateY(10%);opacity: 1;}
+	80%{-webkit-transform: translateY(10%);opacity: 1;}
+	100%{transform: translateY(20%);opacity: 0;}
+	100%{-webkit-transform: translateY(20%);opacity: 0;}
+}
+
+
+@keyframes Round{
+	0%{transform-origin: center;transform: rotate(0deg);}
+	0%{-webkit-transform-origin: center;-webkit-transform: rotate(0deg);}
+	100%{transform-origin: center;transform: rotate(360deg);}
+	100%{-webkit-transform-origin: center;-webkit-transform: rotate(360deg);}
+}
+@-webkit-keyframes Round{
+	0%{transform-origin: center;transform: rotate(0deg);}
+	0%{-webkit-transform-origin: center;-webkit-transform: rotate(0deg);}
+	100%{transform-origin: center;transform: rotate(360deg);}
+	100%{-webkit-transform-origin: center;-webkit-transform: rotate(360deg);}
+}
+@keyframes Round-anti{
+	0%{transform-origin: center;transform: rotate(0deg);}
+	0%{-webkit-transform-origin: center;-webkit-transform: rotate(0deg);}
+	100%{transform-origin: center;transform: rotate(-360deg);}
+	100%{-webkit-transform-origin: center;-webkit-transform: rotate(-360deg);}
+}
+@-webkit-keyframes Round-anti{
+	0%{transform-origin: center;transform: rotate(0deg);}
+	0%{-webkit-transform-origin: center;-webkit-transform: rotate(0deg);}
+	100%{transform-origin: center;transform: rotate(-360deg);}
+	100%{-webkit-transform-origin: center;-webkit-transform: rotate(-360deg);}
+}
+
+}
+@keyframes scalell{
+	0%{transform: scale(1);}
+	0%{-webkit-transform: scale(1);}
+	50%{transform: scale(1.05);}
+	50%{-webkit-transform: scale(1.05);}
+}
+@-webkit-keyframes scalell{
+	0%{transform: scale(1);}
+	0%{-webkit-transform: scale(1);}
+	50%{transform: scale(1.05);}
+	50%{-webkit-transform: scale(1.05);}
+}
+@keyframes rotatell{
+	0%{transform: rotate(360deg);}
+	0%{-webkit-transform: rotate(360deg);}
+	50%{transform: rotate(0);}
+	50%{-webkit-transform: rotate(0);}
+}
+@-webkit-keyframes rotatell{
+	0%{transform: rotate(360deg);}
+	0%{-webkit-transform: rotate(360deg);}
+	50%{transform: rotate(0);}
+	50%{-webkit-transform: rotate(0);}
+}
+@keyframes arc{
+	0%{
+		border-left: 100px solid transparent;
+		border-right: 100px solid transparent;
+		border-top: 100px solid red;
+		border-bottom: 100px solid red;
+	}
+	50%{
+		border-left: 100px solid red;
+		border-right: 100px solid red;
+		border-top: 100px solid transparent;
+		border-bottom: 100px solid transparent;
+	}
+}
+@-webkit-keyframes arc{
+	0%{
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 50px solid red;
+		border-bottom: 50px solid red;
+	}
+	50%{
+		border-left: 50px solid red;
+		border-right: 50px solid red;
+		border-top: 50px solid transparent;
+		border-bottom: 50px solid transparent;
+	}
+}
+
+/*加载动画*/
+
+@keyframes loading{
+	0%{opacity: 1;}
+	50%{opacity: 1;}
+	100%{opacity: 0;z-index: -1;}
+}
+@-webkit-keyframes loading{
+	0%{opacity: 1;}
+	50%{opacity: 1;}
+	100%{opacity: 0;z-index: -1;}
+}
+@keyframes load1{
+	0%{background-color: rgba(255,255,255,0.5)}
+	25%{background-color: rgba(255,255,255,0.5)}
+	75%{background-color: rgba(255,255,255,1)}
+	100%{background-color: rgba(255,255,255,1)}
+}
+@-webkit-keyframes load1{
+	0%{background-color: rgba(255,255,255,0.5)}
+	25%{background-color: rgba(255,255,255,0.5)}
+	75%{background-color: rgba(255,255,255,1)}
+	100%{background-color: rgba(255,255,255,1)}
+}
+
+/* 页面动画 */
+
+@keyframes enter{
+	0%{transform: translate(100%,0);}
+	0%{-webkit-transform: translate(100%,0);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@-webkit-keyframes enter{
+	0%{transform: translate(100%,0);}
+	0%{-webkit-transform: translate(100%,0);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@keyframes getout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(-100%,0);}
+	100%{-webkit-transform: translate(-100%,0);}
+}
+@-webkit-keyframes getout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(-100%,0);}
+	100%{-webkit-transform: translate(-100%,0);}
+}
+
+@keyframes Renter{
+	0%{transform: translate(-100%,0);}
+	0%{-webkit-transform: translate(-100%,0);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@-webkit-keyframes Renter{
+	0%{transform: translate(-100%,0);}
+	0%{-webkit-transform: translate(-100%,0);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@keyframes Rgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(100%,0);}
+	100%{-webkit-transform: translate(100%,0);}
+}
+@-webkit-keyframes Rgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(100%,0);}
+	100%{-webkit-transform: translate(100%,0);}
+}
+
+@keyframes Tenter{
+	0%{transform: translate(0,100%);}
+	0%{-webkit-transform: translate(0,100%);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@-webkit-keyframes Tenter{
+	0%{transform: translate(0,100%);}
+	0%{-webkit-transform: translate(0,100%);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@keyframes Tgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(0,-100%);}
+	100%{-webkit-transform: translate(0,-100%);}
+}
+@-webkit-keyframes Tgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(0,-100%);}
+	100%{-webkit-transform: translate(0,-100%);}
+}
+
+@keyframes Benter{
+	0%{transform: translate(0,-100%);}
+	0%{-webkit-transform: translate(0,-100%);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@-webkit-keyframes Benter{
+	0%{transform: translate(0,-100%);}
+	0%{-webkit-transform: translate(0,-100%);}
+	100%{transform: translate(0,0);}
+	100%{-webkit-transform: translate(0,0);}
+}
+@keyframes Bgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(0,100%);}
+	100%{-webkit-transform: translate(0,100%);}
+}
+@-webkit-keyframes Bgetout{
+	0%{transform: translate(0,0);}
+	0%{-webkit-transform: translate(0,0);}
+	100%{transform: translate(0,100%);}
+	100%{-webkit-transform: translate(0,100%);}
+}
+
+
+
+/* 内部动画 */
+/*		Left		*/
+@keyframes Left-Move{
+	0%{transform: translate(320px,0);opacity: 0;}
+	0%{-webkit-transform: translate(320px,0);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@-webkit-keyframes Left-Move{
+	0%{transform: translate(320px,0);opacity: 0;}
+	0%{-webkit-transform: translate(320px,0);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@keyframes Left-Scale{
+	0%{transform: translate(320px,0) scale(0.5);}
+	0%{-webkit-transform: translate(320px,0) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@-webkit-keyframes Left-Scale{
+	0%{transform: translate(320px,0) scale(0.5);}
+	0%{-webkit-transform: translate(320px,0) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@keyframes Left-Rotate{
+	0%{transform: translate(320px,0) rotate(-180deg);}
+	0%{-webkit-transform: translate(320px,0) rotate(-180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@-webkit-keyframes Left-Rotate{
+	0%{transform: translate(320px,0) rotate(-180deg);}
+	0%{-webkit-transform: translate(320px,0) rotate(-180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@keyframes Left-Skew{
+	0%{transform: translate(320px,0) skew(60deg);}
+	0%{-webkit-transform: translate(320px,0) skew(60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@-webkit-keyframes Left-Skew{
+	0%{transform: translate(320px,0) skew(60deg);}
+	0%{-webkit-transform: translate(320px,0) skew(60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@keyframes Left-Scale-Rotate{
+	0%{transform: translate(320px,0) scale(0.5) rotate(-180deg);}
+	0%{-webkit-transform: translate(320px,0) scale(0.5) rotate(-180deg);}
+	100%{transform: translate(0,0) scale(0) rotate();}
+	100%{-webkit-transform: translate(0,0) scale(0) rotate();}
+}
+@-webkit-keyframes Left-Scale-Rotate{
+	0%{transform: translate(320px,0) scale(0.5) rotate(-180deg);}
+	0%{-webkit-transform: translate(320px,0) scale(0.5) rotate(-180deg);}
+	100%{transform: translate(0,0) scale() rotate();}
+	100%{-webkit-transform: translate(0,0) scale() rotate();}
+}
+
+/*		Right		*/
+@keyframes Right-Move{
+	0%{transform: translate(-320px,0);opacity: 0;}
+	0%{-webkit-transform: translate(-320px,0);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@-webkit-keyframes Right-Move{
+	0%{transform: translate(-320px,0);opacity: 0;}
+	0%{-webkit-transform: translate(-320px,0);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@keyframes Right-Scale{
+	0%{transform: translate(-320px,0) scale(0.5);}
+	0%{-webkit-transform: translate(-320px,0) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@-webkit-keyframes Right-Scale{
+	0%{transform: translate(-320px,0) scale(0.5);}
+	0%{-webkit-transform: translate(-320px,0) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@keyframes Right-Rotate{
+	0%{transform: translate(-320px,0) rotate(180deg);}
+	0%{-webkit-transform: translate(-320px,0) rotate(180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@-webkit-keyframes Right-Rotate{
+	0%{transform: translate(-320px,0) rotate(180deg);}
+	0%{-webkit-transform: translate(-320px,0) rotate(180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@keyframes Right-Skew{
+	0%{transform: translate(-320px,0) skew(-60deg);}
+	0%{-webkit-transform: translate(-320px,0) skew(-60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@-webkit-keyframes Right-Skew{
+	0%{transform: translate(-320px,0) skew(-60deg);}
+	0%{-webkit-transform: translate(-320px,0) skew(-60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@keyframes Right-Scale-Rotate{
+	0%{transform: translate(-320px,0) scale(0.5) rotate(180deg);}
+	0%{-webkit-transform: translate(-320px,0) scale(0.5) rotate(180deg);}
+	100%{transform: translate(0,0) scale(0) rotate();}
+	100%{-webkit-transform: translate(0,0) scale(0) rotate();}
+}
+@-webkit-keyframes Right-Scale-Rotate{
+	0%{transform: translate(-320px,0) scale(0.5) rotate(180deg);}
+	0%{-webkit-transform: translate(-320px,0) scale(0.5) rotate(180deg);}
+	100%{transform: translate(0,0) scale() rotate();}
+	100%{-webkit-transform: translate(0,0) scale() rotate();}
+}
+
+/*		Top		*/
+@keyframes Top-Move{
+	0%{transform: translate(0,-320px);opacity: 0;}
+	0%{-webkit-transform: translate(0,-320px);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@-webkit-keyframes Top-Move{
+	0%{transform: translate(0,-320px);opacity: 0;}
+	0%{-webkit-transform: translate(0,-320px);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@keyframes Top-Scale{
+	0%{transform: translate(0,-320px) scale(0.5);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@-webkit-keyframes Top-Scale{
+	0%{transform: translate(0,-320px) scale(0.5);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@keyframes Top-Rotate{
+	0%{transform: translate(0,-320px) rotate(180deg);}
+	0%{-webkit-transform: translate(0,-320px) rotate(180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@-webkit-keyframes Top-Rotate{
+	0%{transform: translate(0,-320px) rotate(180deg);}
+	0%{-webkit-transform: translate(0,-320px) rotate(180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@keyframes Top-Skew{
+	0%{transform: translate(0,-320px) skew(60deg);}
+	0%{-webkit-transform: translate(0,-320px) skew(60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@-webkit-keyframes Top-Skew{
+	0%{transform: translate(0,-320px) skew(60deg);}
+	0%{-webkit-transform: translate(0,-320px) skew(60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@keyframes Top-Scale-Rotate{
+	0%{transform: translate(0,-320px) scale(0.5) rotate(180deg);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5) rotate(180deg);}
+	100%{transform: translate(0,0) scale(0) rotate();}
+	100%{-webkit-transform: translate(0,0) scale(0) rotate();}
+}
+@-webkit-keyframes Top-Scale-Rotate{
+	0%{transform: translate(0,-320px) scale(0.5) rotate(180deg);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5) rotate(180deg);}
+	100%{transform: translate(0,0) scale() rotate();}
+	100%{-webkit-transform: translate(0,0) scale() rotate();}
+}
+@keyframes Top-Scale-Skew{
+	0%{transform: translate(0,-320px) scale(0.5) skew(60deg);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5) skew(60deg);}
+	100%{transform: translate(0,0) scale(0) rotate();}
+	100%{-webkit-transform: translate(0,0) scale(0) rotate();}
+}
+@-webkit-keyframes Top-Scale-Skew{
+	0%{transform: translate(0,-320px) scale(0.5) skew(60deg);}
+	0%{-webkit-transform: translate(0,-320px) scale(0.5) skew(60deg);}
+	100%{transform: translate(0,0) scale() rotate();}
+	100%{-webkit-transform: translate(0,0) scale() rotate();}
+}
+
+/*		Bottom		*/
+@keyframes Bottom-Move{
+	0%{transform: translate(0,320px);opacity: 0;}
+	0%{-webkit-transform: translate(0,320px);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@-webkit-keyframes Bottom-Move{
+	0%{transform: translate(0,320px);opacity: 0;}
+	0%{-webkit-transform: translate(0,320px);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@keyframes Bottom-Scale{
+	0%{transform: translate(0,320px) scale(0.5);}
+	0%{-webkit-transform: translate(0,320px) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@-webkit-keyframes Bottom-Scale{
+	0%{transform: translate(0,320px) scale(0.5);}
+	0%{-webkit-transform: translate(0,320px) scale(0.5);}
+	100%{transform: translate(0,0) scale(1);}
+	100%{-webkit-transform: translate(0,0) scale(1);}
+}
+@keyframes Bottom-Rotate{
+	0%{transform: translate(0,320px) rotate(-180deg);}
+	0%{-webkit-transform: translate(0,320px) rotate(-180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@-webkit-keyframes Bottom-Rotate{
+	0%{transform: translate(0,320px) rotate(-180deg);}
+	0%{-webkit-transform: translate(0,320px) rotate(-180deg);}
+	100%{transform: translate(0,0) rotate();}
+	100%{-webkit-transform: translate(0,0) rotate();}
+}
+@keyframes Bottom-Skew{
+	0%{transform: translate(0,320px) skew(-60deg);}
+	0%{-webkit-transform: translate(0,320px) skew(-60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@-webkit-keyframes Bottom-Skew{
+	0%{transform: translate(0,320px) skew(-60deg);}
+	0%{-webkit-transform: translate(0,320px) skew(-60deg);}
+	100%{transform: translate(0,0) skew();}
+	100%{-webkit-transform: translate(0,0) skew();}
+}
+@keyframes Bottom-Scale-Rotate{
+	0%{transform: translate(0,320px) scale(0.5) rotate(-180deg);}
+	0%{-webkit-transform: translate(0,320px) scale(0.5) rotate(-180deg);}
+	100%{transform: translate(0,0) scale(0) rotate();}
+	100%{-webkit-transform: translate(0,0) scale(0) rotate();}
+}
+@-webkit-keyframes Bottom-Scale-Rotate{
+	0%{transform: translate(0,320px) scale(0.5) rotate(-180deg);}
+	0%{-webkit-transform: translate(0,320px) scale(0.5) rotate(-180deg);}
+	100%{transform: translate(0,0) scale() rotate();}
+	100%{-webkit-transform: translate(0,0) scale() rotate();}
+}
+
