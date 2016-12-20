@@ -1,8 +1,6 @@
-
-
-var Drawing = function(){
-}
+var Drawing = function(){};
 Drawing.prototype = {
+	img:[],
 	pages:function(){
 		var main = document.createElement('div');
 		var wrap = document.createElement('div');
@@ -55,6 +53,7 @@ Drawing.prototype = {
 						dom.style.top = y + "px";
 						dom.style.width = w + "px";
 						dom.style.height = h + "px";
+						this.img.push("images/"+item.src);
 						break;
 					}
 
@@ -117,7 +116,7 @@ Drawing.prototype = {
 		document.getElementById('main').appendChild(musciStop);
 		document.getElementById('main').appendChild(musciOn);
 		document.getElementById('main').appendChild(musciBg);
-		
+
 		$("#main>img").hide();
 		musciBg.addEventListener('touchstart',function(){
 			if ( $(".musicPause").hasClass('hide') ) {
